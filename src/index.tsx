@@ -8,7 +8,7 @@ import { News } from './components/News/News';
 import { Profile } from './components/Profile/Profile';
 import { Team } from './components/Team/Team';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 import { Route, Routes, Navigate } from 'react-router';
 
 const root = ReactDOM.createRoot(
@@ -16,7 +16,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path='/' element={<Header/>}>
           <Route path='/' element={<Navigate to='/aktiviteter'/>}/>
@@ -26,7 +26,7 @@ root.render(
           <Route path='/minprofil' element={<Profile/>} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
