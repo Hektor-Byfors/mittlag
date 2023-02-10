@@ -1,3 +1,8 @@
+This project is an aiding tool for players in Järfälla IBK.
+Application is limited to mobile. Therefore it will appear in mobile form even in desktop.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
