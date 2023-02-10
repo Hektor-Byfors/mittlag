@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/mittlag/static/css/main.f887de2e.css",
-    "main.js": "/mittlag/static/js/main.c51bbac3.js",
+    "main.js": "/mittlag/static/js/main.a67f6c7a.js",
     "static/js/787.1a3efe27.chunk.js": "/mittlag/static/js/787.1a3efe27.chunk.js",
     "static/media/innebandysquare.jpg": "/mittlag/static/media/innebandysquare.24fdc301219de2726cb1.jpg",
     "index.html": "/mittlag/index.html",
     "main.f887de2e.css.map": "/mittlag/static/css/main.f887de2e.css.map",
-    "main.c51bbac3.js.map": "/mittlag/static/js/main.c51bbac3.js.map",
+    "main.a67f6c7a.js.map": "/mittlag/static/js/main.a67f6c7a.js.map",
     "787.1a3efe27.chunk.js.map": "/mittlag/static/js/787.1a3efe27.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f887de2e.css",
-    "static/js/main.c51bbac3.js"
+    "static/js/main.a67f6c7a.js"
   ]
 }
