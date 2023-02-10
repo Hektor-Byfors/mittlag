@@ -1,7 +1,7 @@
 .teamContainer {
     background-color: #445a64;
     min-height: calc(100vh - 4.5rem);
-    width: 100vw;
+    max-width: 400px;
     h3 {
         color: white;
         font-weight: 400;
@@ -66,17 +66,19 @@
     }
     .contact {
         position: fixed;
-        top: 0;
-        right: 0;
         width: 100vw;
+        max-width: 400px;
         height: 100vh;
         background-color: rgba(0, 0, 0, 0.8);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         .contactCard {
             background-color: white;
             box-shadow: 0 5px 5px 0 rgba(0,0,0,0.3) inset;
             padding: 1rem 2rem;
             position: absolute;
-            width: 100vw;
+            width: calc(400px - 64px);
             top: 50%;
             transform: translateY(-50%);
             display: flex;
@@ -94,7 +96,7 @@
                 }
             }
             h3 {
-                margin: 0 2rem 0 0 ;
+                margin: 0;
                 color: black;
                 font-weight: 600;
                 font-size: rem;
@@ -102,5 +104,10 @@
             }
 
         }
+    }
+}
+@media  screen and (min-width: 400px) {
+    .teamContainer {
+        width: 400px;
     }
 }

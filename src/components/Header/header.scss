@@ -1,6 +1,7 @@
 header {
     background-color: #1C313A;
-    width: 100%;
+    width: 100vw;
+    max-width: 400px;
     top: 0;
     height: 4.5rem;
     display: flex;
@@ -41,7 +42,7 @@ header {
         z-index: 99;
     }
     .menuOpen {
-        position: fixed;
+        position: absolute;
         top: 1rem;
         right: 1rem;
         background-color: #424242;
@@ -72,6 +73,12 @@ header {
                 text-decoration: none;
             }
         }
+    }
+}
+
+@media screen and (min-width: 400px) and (min-height: 770px) {
+    .container {
+        width: 400px;
     }
 }
 

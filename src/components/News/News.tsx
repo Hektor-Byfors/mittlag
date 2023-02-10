@@ -22,7 +22,7 @@ export const News = () => {
                         <p>Järfälla IBK</p>
                     </div>
                 </div>
-                <p>Har någon glömt ett par vita salming skor i kallhäll?</p>
+                <p>Har någon glömt ett par vita skor i kallhäll?</p>
             </div>
 
             <h4>Herrar B</h4>

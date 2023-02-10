@@ -1,7 +1,7 @@
 .activityContainer {
     background-color: #445a64;
     min-height: calc(100vh - 4.5rem);
-    width: 100vw;
+    max-width: 400px;
     h3 {
         color: white;
         font-weight: 400;
@@ -71,7 +71,7 @@
 .activityInfo {
     background-color: #445a64;
     min-height: calc(100vh - 4.5rem);
-    width: 100vw;
+    max-width: 400px;
     h3 {
         color: white;
         font-weight: 400;
@@ -191,5 +191,6 @@
     }
     .activityBack {
         text-align: end;
+        cursor: pointer;
     }
 }

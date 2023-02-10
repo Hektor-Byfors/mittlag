@@ -17,29 +17,30 @@ export const Header = () => {
     }
 
     return (<>
-        <header>
-            <div className="headerProfileHolder">
-                <img src={profilePic}/>
-                <div className="headerNameHolder">
-                    <h4>Hektor</h4>
-                    <p>Järfälla IBK - Herrar B</p>
+        <div className="container">
+            <header>
+                <div className="headerProfileHolder">
+                    <img src={profilePic}/>
+                    <div className="headerNameHolder">
+                        <h4>Hektor</h4>
+                        <p>Järfälla IBK - Herrar B</p>
+                    </div>
                 </div>
-            </div>
-            <FaBars className="menuIcon" onClick={() => menuClick()}/>
-            {openMenu && 
-                <div className="menuOpen">
-                    <h3>Herrar B</h3>
-                    <ul>
-                        <Link to="/aktiviteter" className="link" onClick={() => menuClick()}><li>Aktiviteter</li></Link>
-                        <Link to="/nyhetsflode" className="link" onClick={() => menuClick()}><li>Nyhetsflöde</li></Link>
-                        <Link to="/lagmedlemmar" className="link" onClick={() => menuClick()}><li>Lagmedlemmar</li></Link>
-                        <Link to="/minprofil" className="link" onClick={() => menuClick()}><li>Min profil</li></Link>
-                    </ul>
-                </div>
-            }
-            
-        </header>
-        <Outlet></Outlet>
-        
+                <FaBars className="menuIcon" onClick={() => menuClick()}/>
+                {openMenu && 
+                    <div className="menuOpen">
+                        <h3>Herrar B</h3>
+                        <ul>
+                            <Link to="/aktiviteter" className="link" onClick={() => menuClick()}><li>Aktiviteter</li></Link>
+                            <Link to="/nyhetsflode" className="link" onClick={() => menuClick()}><li>Nyhetsflöde</li></Link>
+                            <Link to="/lagmedlemmar" className="link" onClick={() => menuClick()}><li>Lagmedlemmar</li></Link>
+                            <Link to="/minprofil" className="link" onClick={() => menuClick()}><li>Min profil</li></Link>
+                        </ul>
+                    </div>
+                }
+
+            </header>
+            <Outlet></Outlet>
+        </div>
     </>)
 }
