@@ -2,14 +2,31 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import { Activities } from './components/Activities/Activities';
+import { Header } from './components/Header/Header'
+import { News } from './components/News/News';
+import { Profile } from './components/Profile/Profile';
+import { Team } from './components/Team/Team';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Header/>}>
+          <Route path='/' element={<Navigate to='/aktiviteter'/>}/>
+          <Route path='/aktiviteter' element={<Activities/>} />
+          <Route path='/nyhetsflode' element={<News/>} />
+          <Route path='/lagmedlemmar' element={<Team/>} />
+          <Route path='/minprofil' element={<Profile/>} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
