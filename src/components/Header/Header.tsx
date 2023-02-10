@@ -7,10 +7,6 @@ import { useState } from "react";
 
 export const Header = () => {
     const [openMenu, setOpenMenu] = useState(false)
-/*     const [activities, setActivities] = useState(true)
-    const [news, setNews] = useState(false)
-    const [team, setTeam] = useState(false)
-    const [profile, setProfile] = useState(false) */
 
     const menuClick = () => {
         setOpenMenu(!openMenu)
@@ -38,7 +34,6 @@ export const Header = () => {
                         </ul>
                     </div>
                 }
-
             </header>
             <Outlet></Outlet>
         </div>
