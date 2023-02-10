@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mittlag/static/css/main.f887de2e.css",
-    "main.js": "/mittlag/static/js/main.c51bbac3.js",
-    "static/js/787.1a3efe27.chunk.js": "/mittlag/static/js/787.1a3efe27.chunk.js",
-    "static/media/innebandysquare.jpg": "/mittlag/static/media/innebandysquare.24fdc301219de2726cb1.jpg",
-    "index.html": "/mittlag/index.html",
-    "main.f887de2e.css.map": "/mittlag/static/css/main.f887de2e.css.map",
-    "main.c51bbac3.js.map": "/mittlag/static/js/main.c51bbac3.js.map",
-    "787.1a3efe27.chunk.js.map": "/mittlag/static/js/787.1a3efe27.chunk.js.map"
+    "main.css": "/Hektor-Byfors/mittlag/static/css/main.f887de2e.css",
+    "main.js": "/Hektor-Byfors/mittlag/static/js/main.6c41d655.js",
+    "static/js/787.1a3efe27.chunk.js": "/Hektor-Byfors/mittlag/static/js/787.1a3efe27.chunk.js",
+    "static/media/innebandysquare.jpg": "/Hektor-Byfors/mittlag/static/media/innebandysquare.24fdc301219de2726cb1.jpg",
+    "index.html": "/Hektor-Byfors/mittlag/index.html",
+    "main.f887de2e.css.map": "/Hektor-Byfors/mittlag/static/css/main.f887de2e.css.map",
+    "main.6c41d655.js.map": "/Hektor-Byfors/mittlag/static/js/main.6c41d655.js.map",
+    "787.1a3efe27.chunk.js.map": "/Hektor-Byfors/mittlag/static/js/787.1a3efe27.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f887de2e.css",
-    "static/js/main.c51bbac3.js"
+    "static/js/main.6c41d655.js"
   ]
 }
